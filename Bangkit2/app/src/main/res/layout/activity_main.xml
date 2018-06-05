@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.bangkit.bangkit.MainActivity">
+
+    <TextView
+        android:id="@+id/date"
+        android:layout_width="358dp"
+        android:layout_height="36dp"
+        android:text="Hari ini"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="16dp" />
+
+    <TextView
+        android:id="@+id/Longitude"
+        android:layout_width="355dp"
+        android:layout_height="46dp"
+        android:text="Longitude"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="70dp" />
+
+    <TextView
+        android:id="@+id/Latitude"
+        android:layout_width="357dp"
+        android:layout_height="42dp"
+        android:text="Latitude"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="127dp" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:ems="10"
+        android:inputType="textPersonName"
+        android:text="Cari"
+        tools:layout_editor_absoluteX="84dp"
+        tools:layout_editor_absoluteY="185dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="221dp"
+        android:layout_height="51dp"
+        android:text="Tampilkan Longitude"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="266dp" />
+
+    <Button
+        android:id="@+id/button3"
+        android:layout_width="219dp"
+        android:layout_height="51dp"
+        android:text="Tampilkan Latitude"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="323dp" />
+
+    <Button
+        android:id="@+id/button4"
+        android:layout_width="218dp"
+        android:layout_height="57dp"
+        android:text="Lokasi Narotama"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="383dp" />
+
+    <Button
+        android:id="@+id/button5"
+        android:layout_width="217dp"
+        android:layout_height="54dp"
+        android:text="Lokasi Sutos"
+        tools:layout_editor_absoluteX="16dp"
+        tools:layout_editor_absoluteY="447dp" />
+
+    <Button
+        android:id="@+id/button6"
+        android:layout_width="114dp"
+        android:layout_height="55dp"
+        android:text="Clear All"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="351dp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="115dp"
+        android:layout_height="68dp"
+        android:text="BANGKIT T.INFORMATIKA (04315036 KELAS A)"
+        tools:layout_editor_absoluteX="254dp"
+        tools:layout_editor_absoluteY="277dp" />
+
+</android.support.constraint.ConstraintLayout>
